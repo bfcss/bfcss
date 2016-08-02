@@ -1,0 +1,24 @@
+{
+  "name": "bfcss",
+  "version": "1.0.0-beta.1",
+  "description": "Best Friend Cats Style Sheets",
+  "main": "index.js",
+  "bin": {
+    "bfcss": "./bin/bfcss.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava -v"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "MrsJxn",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
+}
